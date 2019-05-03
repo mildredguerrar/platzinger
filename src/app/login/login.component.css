@@ -1,0 +1,26 @@
+.login-container {
+    background-image: url(../../assets/img/msnbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-login {
+    font-weight: 600;
+    color: #4d4d4d;
+    background: rgba(41, 184, 229, 1);
+    background: -moz-linear-gradient(left, rgba(41, 184, 229, 1) 0%, rgba(179, 220, 237, 1) 99%, rgba(188, 224, 238, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(41, 184, 229, 1)), color-stop(99%, rgba(179, 220, 237, 1)), color-stop(100%, rgba(188, 224, 238, 1)));
+    background: -webkit-linear-gradient(left, rgba(41, 184, 229, 1) 0%, rgba(179, 220, 237, 1) 99%, rgba(188, 224, 238, 1) 100%);
+    background: -o-linear-gradient(left, rgba(41, 184, 229, 1) 0%, rgba(179, 220, 237, 1) 99%, rgba(188, 224, 238, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(41, 184, 229, 1) 0%, rgba(179, 220, 237, 1) 99%, rgba(188, 224, 238, 1) 100%);
+    background: linear-gradient(to right, rgba(41, 184, 229, 1) 0%, rgba(179, 220, 237, 1) 99%, rgba(188, 224, 238, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee', GradientType=1);
+}
+
+.facebook a {
+    color: blue;
+    display: block;
+    font-size: small;
+    text-decoration: underline;
+    margin: 5px;
+}

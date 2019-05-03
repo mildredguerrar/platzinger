@@ -1,0 +1,92 @@
+#conversationContaner {
+    height: 93.5vh;
+    background: rgba(138, 218, 242, 1);
+    background: -moz-linear-gradient(top, rgba(138, 218, 242, 1) 0%, rgba(138, 218, 242, 1) 2%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 74%, rgba(212, 239, 247, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(138, 218, 242, 1)), color-stop(2%, rgba(138, 218, 242, 1)), color-stop(15%, rgba(255, 255, 255, 1)), color-stop(74%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(212, 239, 247, 1)));
+    background: -webkit-linear-gradient(top, rgba(138, 218, 242, 1) 0%, rgba(138, 218, 242, 1) 2%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 74%, rgba(212, 239, 247, 1) 100%);
+    background: -o-linear-gradient(top, rgba(138, 218, 242, 1) 0%, rgba(138, 218, 242, 1) 2%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 74%, rgba(212, 239, 247, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(138, 218, 242, 1) 0%, rgba(138, 218, 242, 1) 2%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 74%, rgba(212, 239, 247, 1) 100%);
+    background: linear-gradient(to bottom, rgba(138, 218, 242, 1) 0%, rgba(138, 218, 242, 1) 2%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 74%, rgba(212, 239, 247, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8adaf2', endColorstr='#d4eff7', GradientType=0);
+}
+
+.friendName {
+    display: inline;
+}
+
+.conversation {
+    overflow-y: auto;
+    height: 70vh;
+}
+
+.conversation .contentConversation {
+    font-weight: 600;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.userSends,
+.friendSends {
+    margin: 5px 10px;
+}
+
+.contentConversation p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    font-size: 12px;
+    max-width: 70%;
+    border-radius: 17px;
+    display: inline-block;
+}
+
+.userSends p {
+    background-color: #b8e5fa;
+}
+
+.friendSends p {
+    background-color: #eaeceb;
+}
+
+.contentConversation .conversationAvatar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 5px;
+    margin-top: 5px;
+}
+
+.userSends .contentConversation,
+.userSends small {
+    text-align: right;
+    justify-content: right;
+    text-align: right;
+    display: flex;
+}
+
+.user {}
+
+.newConversation {
+    border-radius: 0;
+}
+
+.moreOptions {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-top: none;
+    background-color: #fff;
+}
+
+.moreOptions img {
+    height: 20px;
+    margin: 0 5px;
+}
+
+.custom-file-upload {
+    padding: 1px 12px;
+    margin: 0px;
+    font-size: 12px;
+}
